@@ -81,3 +81,5 @@ Get-ChildItem -Path $rootDirectory -Recurse | ForEach-Object {
     }
   }
 }
+
+Write-Host ("Replace-Pattern: Done!")
